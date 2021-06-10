@@ -16,7 +16,7 @@
         <link rel="canonical" href="https://ramitsurana.github.io/awesome-kubernetes/projects/projects/">
       
       <link rel="icon" href="../../logo.png">
-      <meta name="generator" content="mkdocs-1.1.2, mkdocs-material-7.1.0">
+      <meta name="generator" content="mkdocs-1.2.1, mkdocs-material-7.1.7">
     
     
       
@@ -24,10 +24,10 @@
       
     
     
-      <link rel="stylesheet" href="../../assets/stylesheets/main.33e2939f.min.css">
+      <link rel="stylesheet" href="../../assets/stylesheets/main.ca7ac06f.min.css">
       
         
-        <link rel="stylesheet" href="../../assets/stylesheets/palette.ef6f36e2.min.css">
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.f1a3b89f.min.css">
         
           
           
@@ -340,6 +340,7 @@
       
       <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
       
+      
         
       
       
@@ -354,6 +355,7 @@
       
         
 <nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
   
   
     
@@ -853,6 +855,7 @@
                   <div class="md-sidebar__inner">
                     
 <nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
   
   
     
@@ -1442,6 +1445,7 @@
 <li><a href="http://opencredo.com/introducing-kubefuse-file-system-kubernetes/">Kubefuse</a></li>
 <li><a href="https://github.com/ahmetb/kubectx">kubens</a> - switch between namespaces on kubectl</li>
 <li><a href="https://github.com/shyiko/kubensx">kubensx</a> - Simpler Cluster/User/Namespace switching for Kubernetes (featuring interactive mode and wildcard/fuzzy matching).</li>
+<li><a href="https://github.com/doitintl/kube-no-trouble">kubent</a> - Easily check your cluster for use of deprecated APIs</li>
 <li><a href="https://github.com/errordeveloper/kubeplay">kubeplay</a></li>
 <li><a href="https://github.com/projectodd/kubernetes/blob/kubesh/cmd/kubesh/README.md">Kubesh</a> - Work around kubectl</li>
 <li><a href="https://github.com/IBM/kui">Kui</a> - Hybrid CLI/GUI alternative to kubectl</li>
@@ -1517,7 +1521,7 @@
 <li><a href="http://www.pomerium.io/">Pomerium</a> - a zero-trust identity-aware access proxy inspired by BeyondCorp.</li>
 <li><a href="https://github.com/corneliusweig/rakkess">Rakkess</a> - Kubectl plugin to show an access matrix for all available resources.</li>
 <li><a href="https://sysdig.com/opensource/falco/">Sysdig Falco</a></li>
-<li><a href="http://www.sysdig.com/product/secure">Sysdig Secure</a></li>
+<li><a href="http://www.sysdig.com/products/secure">Sysdig Secure</a></li>
 <li><a href="https://www.tigera.io/tigera-secure-ce/">Tigera Secure Cloud Edition</a></li>
 <li><a href="https://www.tigera.io/tigera-secure-ee/">Tigera Secure Enterprise Edition</a></li>
 <li><a href="http://github.com/aporeto-inc/trireme-kubernetes">Trireme</a></li>
@@ -1537,6 +1541,7 @@
 <li><a href="https://github.com/linode/linode-cloud-controller-manager">Linode NodeBalancer Ingress</a></li>
 <li><a href="https://metallb.universe.tf/">MetalLB</a> - load-balancer implementation for bare metal Kubernetes clusters, using standard routing protocols.</li>
 <li><a href="https://github.com/kubesphere/porter">Porter</a> - a load balancer which is designed for a bare metal Kubernetes cluster. It's implemented by physical switch, and uses BGP and ECMP to achieve optimal performance and HA.</li>
+<li><a href="http://purelb.io">PureLB</a> - open-source load-balancer orchestrator for Kubernetes clusters. It uses standard Linux networking and routing protocols, and works with the operating system to announce service addresses.</li>
 <li><a href="https://github.com/kubernetes/ingress-nginx">NGINX Ingress Controller</a></li>
 <li><a href="http://www.nginx.com/blog/load-balancing-kubernetes-services-nginx-plus/">Nginx Plus</a></li>
 <li><a href="https://github.com/zalando/skipper">Skipper</a> - HTTP router and reverse proxy for service composition, including use cases like Kubernetes Ingress</li>
@@ -1579,11 +1584,10 @@
 <h2 id="yamljson-config">YAML/JSON Config<a class="headerlink" href="#yamljson-config" title="Permanent link">&para;</a></h2>
 <ul>
 <li><a href="https://cdk8s.io">cdk8s</a> - Define Kubernetes apps and reusable components using familiar programming languages</li>
-<li><a href="https://github.com/kubernetes/kompose">kompose</a></li>
-<li><a href="https://github.com/ksonnet/ksonnet-lib">ksonnet-lib</a></li>
+<li><a href="https://github.com/kubernetes/kompose">kompose</a> - Translates Docker Compose file into Kubernetes resources</li>
 <li><a href="https://github.com/bitnami-labs/kube-libsonnet/blob/master/kube.libsonnet">kube-libsonnet</a> - Generic library of Kubernetes objects for Jsonnet/Kubecfg with object to array mapping for painless overrides.</li>
-<li><a href="https://github.com/errordeveloper/kubegen">kubegen</a></li>
-<li><a href="https://github.com/garethr/kubeval">kubeval</a></li>
+<li><a href="https://github.com/errordeveloper/kubegen">kubegen</a> - Reduces the verbosity of Kubernetes resource definitions, and adds macros for templating</li>
+<li><a href="https://github.com/garethr/kubeval">kubeval</a> - CLI tool for validating a Kubernetes YAML or JSON configuration file</li>
 </ul>
 <h2 id="static-analysis">Static Analysis<a class="headerlink" href="#static-analysis" title="Permanent link">&para;</a></h2>
 <ul>
@@ -1726,7 +1730,8 @@
   
     <nav class="md-footer__inner md-grid" aria-label="Footer">
       
-        <a href="../../applications/applications/" class="md-footer__link md-footer__link--prev" rel="prev">
+        
+        <a href="../../applications/applications/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Applications" rel="prev">
           <div class="md-footer__button md-icon">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
           </div>
@@ -1741,7 +1746,8 @@
         </a>
       
       
-        <a href="../../managed-kubernetes/managed-kubernetes/" class="md-footer__link md-footer__link--next" rel="next">
+        
+        <a href="../../managed-kubernetes/managed-kubernetes/" class="md-footer__link md-footer__link--next" aria-label="Next: Managed Kubernetes" rel="next">
           <div class="md-footer__title">
             <div class="md-ellipsis">
               <span class="md-footer__direction">
@@ -1811,10 +1817,10 @@
     <div class="md-dialog" data-md-component="dialog">
       <div class="md-dialog__inner md-typeset"></div>
     </div>
-    <script id="__config" type="application/json">{"base": "../..", "features": ["tabs", "instant"], "translations": {"clipboard.copy": "Copy to clipboard", "clipboard.copied": "Copied to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.placeholder": "Type to start searching", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.term.missing": "Missing"}, "search": "../../assets/javascripts/workers/search.fe42c31b.min.js", "version": null}</script>
+    <script id="__config" type="application/json">{"base": "../..", "features": ["tabs", "instant"], "translations": {"clipboard.copy": "Copy to clipboard", "clipboard.copied": "Copied to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.placeholder": "Type to start searching", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.term.missing": "Missing", "select.version.title": "Select version"}, "search": "../../assets/javascripts/workers/search.b0710199.min.js", "version": null}</script>
     
     
-      <script src="../../assets/javascripts/bundle.d892486b.min.js"></script>
+      <script src="../../assets/javascripts/bundle.76f349be.min.js"></script>
       
     
   </body>
