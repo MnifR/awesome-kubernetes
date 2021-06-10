@@ -35,6 +35,7 @@ Useful Articles
 - [Kubernetes Web UIs in 2019](https://srcco.de/posts/kubernetes-web-uis-in-2019.html)
 - [The Complete Guide to Kubernetes Monitoring](https://sematext.com/guides/kubernetes-monitoring/) by [Adnan Rahić](https://twitter.com/adnanrahic)
 - [Practical Monitoring with Prometheus & Grafana: 4 Part Series](https://medium.com/@yitaek/practical-monitoring-with-prometheus-grafana-part-i-22d0f172f993) by [Yitaek Hwang](https://medium.com/@yitaek)
+- [Easy Kubernetes Metrics Server Install in minikube in Five Steps](https://thospfuller.com/2020/11/29/easy-kubernetes-metrics-server-install-in-minikube-in-five-steps/) by [Thomas P. Fuller](https://thospfuller.com/)
 
 ### [Security](#security)
 
@@ -86,6 +87,7 @@ Useful Articles
 
 - [How to pass the Certified Kubernetes Administrator (CKA) exam on the first attempt](https://medium.com/devopslinks/how-to-pass-certified-kubernetes-administrator-cka-exam-on-first-attempt-36c0ceb4c9e)
 - [Getting Kubernetes Certified: The (mostly) Free Way](https://medium.com/@yitaek/getting-kubernetes-certified-the-mostly-free-way-41c8b68c8ed4) by [Yitaek Hwang](https://medium.com/@yitaek)
+- [Answers to 5 Kubernetes CKAD Practice Questions](https://thospfuller.com/2020/11/09/answers_to_five_kubernetes_ckad_practice_questions_2021/) by [Thomas P. Fuller](https://thospfuller.com/)
 
 ### [Devops Tools](#devops-tools)
 
@@ -129,3 +131,4 @@ Useful Articles
 * [Kubernetes Ingress Controller Overview](https://medium.com/swlh/kubernetes-ingress-controller-overview-81abbaca19ec) by [Yitaek Hwang](https://medium.com/@yitaek)
 * [Production Checklist for Redis on Kubernetes](https://medium.com/swlh/production-checklist-for-redis-on-kubernetes-60173d5a5325) by [Yitaek Hwang](https://medium.com/@yitaek)
 * [Ultimate Kubernetes Resource Planning Guide](https://medium.com/dev-genius/ultimate-kubernetes-resource-planning-guide-449a4fddd1d6) by [Yitaek Hwang](https://medium.com/@yitaek)
+* [Learn How to Mount a Local Drive in a Pod in minikube](https://thospfuller.com/2020/12/09/learn-how-to-mount-a-local-drive-in-a-pod-in-minikube-2021/) by [Thomas P. Fuller](https://thospfuller.com/)

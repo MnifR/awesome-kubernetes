@@ -324,6 +324,7 @@ Projects
 * [Kubefuse](http://opencredo.com/introducing-kubefuse-file-system-kubernetes/)
 * [kubens](https://github.com/ahmetb/kubectx) - switch between namespaces on kubectl
 * [kubensx](https://github.com/shyiko/kubensx) - Simpler Cluster/User/Namespace switching for Kubernetes (featuring interactive mode and wildcard/fuzzy matching).
+* [kubent](https://github.com/doitintl/kube-no-trouble) - Easily check your cluster for use of deprecated APIs
 * [kubeplay](https://github.com/errordeveloper/kubeplay)
 * [Kubesh](https://github.com/projectodd/kubernetes/blob/kubesh/cmd/kubesh/README.md) - Work around kubectl
 * [Kui](https://github.com/IBM/kui) - Hybrid CLI/GUI alternative to kubectl
@@ -398,7 +399,7 @@ Projects
 * [Pomerium](http://www.pomerium.io/) - a zero-trust identity-aware access proxy inspired by BeyondCorp.
 * [Rakkess](https://github.com/corneliusweig/rakkess) - Kubectl plugin to show an access matrix for all available resources.
 * [Sysdig Falco](https://sysdig.com/opensource/falco/)
-* [Sysdig Secure](http://www.sysdig.com/product/secure)
+* [Sysdig Secure](http://www.sysdig.com/products/secure)
 * [Tigera Secure Cloud Edition](https://www.tigera.io/tigera-secure-ce/)
 * [Tigera Secure Enterprise Edition](https://www.tigera.io/tigera-secure-ee/)
 * [Trireme](http://github.com/aporeto-inc/trireme-kubernetes)
@@ -418,6 +419,7 @@ Projects
 * [Linode NodeBalancer Ingress](https://github.com/linode/linode-cloud-controller-manager)
 * [MetalLB](https://metallb.universe.tf/) - load-balancer implementation for bare metal Kubernetes clusters, using standard routing protocols.
 * [Porter](https://github.com/kubesphere/porter) - a load balancer which is designed for a bare metal Kubernetes cluster. It's implemented by physical switch, and uses BGP and ECMP to achieve optimal performance and HA.
+* [PureLB](http://purelb.io) - open-source load-balancer orchestrator for Kubernetes clusters. It uses standard Linux networking and routing protocols, and works with the operating system to announce service addresses.
 * [NGINX Ingress Controller](https://github.com/kubernetes/ingress-nginx)
 * [Nginx Plus](http://www.nginx.com/blog/load-balancing-kubernetes-services-nginx-plus/)
 * [Skipper](https://github.com/zalando/skipper) - HTTP router and reverse proxy for service composition, including use cases like Kubernetes Ingress
@@ -460,11 +462,10 @@ Projects
 ## YAML/JSON Config
 
 * [cdk8s](https://cdk8s.io) - Define Kubernetes apps and reusable components using familiar programming languages
-* [kompose](https://github.com/kubernetes/kompose)
-* [ksonnet-lib](https://github.com/ksonnet/ksonnet-lib)
+* [kompose](https://github.com/kubernetes/kompose) - Translates Docker Compose file into Kubernetes resources
 * [kube-libsonnet](https://github.com/bitnami-labs/kube-libsonnet/blob/master/kube.libsonnet) - Generic library of Kubernetes objects for Jsonnet/Kubecfg with object to array mapping for painless overrides.
-* [kubegen](https://github.com/errordeveloper/kubegen)
-* [kubeval](https://github.com/garethr/kubeval)
+* [kubegen](https://github.com/errordeveloper/kubegen) - Reduces the verbosity of Kubernetes resource definitions, and adds macros for templating
+* [kubeval](https://github.com/garethr/kubeval) - CLI tool for validating a Kubernetes YAML or JSON configuration file
 
 ## Static Analysis
 
