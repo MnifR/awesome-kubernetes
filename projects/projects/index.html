@@ -16,7 +16,7 @@
         <link rel="canonical" href="https://ramitsurana.github.io/awesome-kubernetes/projects/projects/">
       
       <link rel="icon" href="../../logo.png">
-      <meta name="generator" content="mkdocs-1.2.1, mkdocs-material-7.1.7">
+      <meta name="generator" content="mkdocs-1.2.2, mkdocs-material-7.2.5">
     
     
       
@@ -24,10 +24,10 @@
       
     
     
-      <link rel="stylesheet" href="../../assets/stylesheets/main.ca7ac06f.min.css">
+      <link rel="stylesheet" href="../../assets/stylesheets/main.be71726b.min.css">
       
         
-        <link rel="stylesheet" href="../../assets/stylesheets/palette.f1a3b89f.min.css">
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.3f5d1f46.min.css">
         
           
           
@@ -48,10 +48,19 @@
     
     
       
-        
-<script>window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)},ga.l=+new Date,ga("create","UA-71344758-5","auto"),ga("set","anonymizeIp",!0),ga("send","pageview"),document.addEventListener("DOMContentLoaded",function(){document.forms.search&&document.forms.search.query.addEventListener("blur",function(){var e;this.value&&(e=document.location.pathname,ga("send","pageview",e+"?q="+this.value))}),"undefined"!=typeof location$&&location$.subscribe(function(e){ga("send","pageview",e.pathname)})})</script>
-<script async src="https://www.google-analytics.com/analytics.js"></script>
-      
+  
+
+
+
+  
+  
+
+
+
+  <script>window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)},ga.l=+new Date,ga("create","UA-71344758-5","auto"),ga("set","anonymizeIp",!0),ga("send","pageview"),document.addEventListener("DOMContentLoaded",function(){document.forms.search&&document.forms.search.query.addEventListener("blur",function(){var e;this.value&&(e=document.location.pathname,ga("send","pageview",e+"?q="+this.value))}),"undefined"!=typeof location$&&location$.subscribe(function(e){ga("send","pageview",e.pathname)})})</script>
+  <script async src="https://www.google-analytics.com/analytics.js"></script>
+
+
     
     
   </head>
@@ -119,14 +128,18 @@
   <label class="md-search__overlay" for="__search"></label>
   <div class="md-search__inner" role="search">
     <form class="md-search__form" name="search">
-      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" data-md-state="active" required>
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
       <label class="md-search__icon md-icon" for="__search">
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
       </label>
-      <button type="reset" class="md-search__icon md-icon" aria-label="Clear" tabindex="-1">
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41z"/></svg>
-      </button>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" aria-label="Clear" tabindex="-1">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41z"/></svg>
+        </button>
+      </nav>
+      
     </form>
     <div class="md-search__output">
       <div class="md-search__scrollwrap" data-md-scrollfix>
@@ -1217,6 +1230,7 @@
 <p><em>Test your applications running on Kubernetes</em></p>
 <ul>
 <li><a href="https://github.com/linki/chaoskube">chaoskube</a> - periodically kills random pods in your Kubernetes cluster</li>
+<li><a href="https://github.com/bats-core/bats-detik">DETIK</a> - BATS extension for end-to-end tests of K8s applications</li>
 <li><a href="https://github.com/mrahbar/k8s-testsuite">k8s-testsuite</a> - Helm chart for network and loadtesting of a Kubernetes cluster</li>
 <li><a href="https://github.com/mhausenblas/kboom">kboom</a> - The Kubernetes scale &amp; soak load tester</li>
 <li><a href="https://usekrucible.com/">Krucible</a> - Quickly create temporary Kubernetes clusters for testing </li>
@@ -1239,7 +1253,6 @@
 <li><a href="https://jenkins.io">Jenkins</a></li>
 <li><a href="https://github.com/jenkinsci/kubernetes-plugin">Jenkins-Kubernetes Plugin</a> by <a href="https://www.twitter.com/csanchez">Carlos Sanchez</a></li>
 <li><a href="https://cloudplatform.googleblog.com/2015/05/Automated-Compute-Engine-and-Docker-Image-Builds-with-Jenkins-Packer-and-Kubernetes.html">Automated Image Builds with Jenkins, Packer, and Kubernetes</a></li>
-<li><a href="http://www.cloudbees.com/blog/demand-jenkins-slaves-kubernetes-and-google-container-engine">On-demand Jenkins slaves with Kubernetes and the Google Container Engine</a></li>
 <li><a href="https://github.com/GoogleCloudPlatform/continuous-deployment-on-kubernetes">Lab: Build a Continuous Deployment Pipeline with Jenkins and Kubernetes</a></li>
 <li><a href="https://github.com/jenkinsci/kubernetes-operator">Jenkins Operator - Kubernetes native Jenkins operator</a></li>
 <li><a href="http://jenkins-x.io/">Jenkins X</a> - automated CI/CD for Kubernetes with GitOps Promotion and Preview Environments on Pull Requests using best of breed OSS tools like: Jenkins, Helm, Skaffold, Kaniko, Knative Build, Knative Pipeline and Prow</li>
@@ -1255,11 +1268,9 @@
 <li><a href="https://keel.sh/">Keel</a></li>
 <li><a href="http://invisionapp.github.io/kit/">Kit</a></li>
 <li><a href="https://github.com/AcalephStorage/kontinuous">Kontinuous</a></li>
-<li><a href="https://github.com/kubeciio">KubeCI</a></li>
 <li><a href="https://github.com/razee-io/Razee">Razee</a></li>
 <li><a href="http://blog.shippable.com/topic/kubernetes">Shippable</a></li>
 <li><a href="https://github.com/bookingcom/shipper">Shipper</a> - Kubernetes native multi-cluster canary or blue-green rollouts using Helm.</li>
-<li><a href="http://www.spinnaker.io/blog/deploy-to-kubernetes-using-spinnaker">Spinnaker</a></li>
 <li><a href="https://github.com/airware/vili">Vili</a></li>
 <li><a href="https://github.com/weaveworks/flux">Weave Flux – GitOps reconcoliation operator</a></li>
 <li><a href="http://blog.wercker.com/topic/kubernetes">Wercker</a></li>
@@ -1360,7 +1371,6 @@
 <li><a href="https://www.cisco.com/c/en/us/td/docs/switches/datacenter/aci/apic/sw/kb/b_Kubernetes_Integration_with_ACI.html">Cisco ACI</a> - CNI plugin from Cisco support ACI fabrics</li>
 <li><a href="https://github.com/Huawei-PaaS/CNI-Genie">CNI-Genie</a></li>
 <li><a href="https://github.com/lyft/cni-ipvlan-vpc-k8s">cni-ipvlan-vpc-k8s</a></li>
-<li><a href="http://contiv.github.io/">Contiv</a></li>
 <li><a href="https://github.com/kubernetes-incubator/external-dns">External DNS</a> - To control DNS records dynamically via Kube resources</li>
 <li><a href="https://github.com/bloomberg/goldpinger">Goldpinger</a> display, monitor and alert on inter-cluster connectivity</li>
 <li><a href="https://github.com/inovex/illuminatio">illuminatio</a> is a tool for automatically testing kubernetes network policies</li>
@@ -1425,7 +1435,6 @@
 <h2 id="mobile-applications">Mobile applications<a class="headerlink" href="#mobile-applications" title="Permanent link">&para;</a></h2>
 <ul>
 <li><a href="https://github.com/bitnami/cabin">Cabin</a></li>
-<li><a href="http://cockpit-project.org/guide/latest/feature-kubernetes.html">Cockpit</a></li>
 </ul>
 <h2 id="apicli-adaptors">API/CLI adaptors<a class="headerlink" href="#apicli-adaptors" title="Permanent link">&para;</a></h2>
 <ul>
@@ -1503,9 +1512,9 @@
 <ul>
 <li><a href="https://github.com/cyberark/KubiScan">kubiscan</a> - A tool to scan Kubernetes cluster for risky pods and RBAC permissions</li>
 <li><a href="https://github.com/cyberark/kubeletctl">kubeletctl</a> - A client for kubelet with advanced capabilities like scanning for pods vulnerable for RCE</li>
+<li><a href="https://github.com/anchore/anchore-engine">Anchore Engine</a> - An open-source project that provides a centralized service for inspection, analysis, and certification of container images.</li>
 <li><a href="http://blog.aquasec.com/topic/kubernetes">Aquasec</a></li>
 <li><a href="https://github.com/kubernetes-sigs/aws-iam-authenticator">Authenticator</a> - A tool for using AWS IAM credentials to authenticate to a Kubernetes cluster</li>
-<li><a href="https://docs.projectcalico.org/master/introduction/">Calico Network Policy (from Tigera)</a> - Widely adopted open source implementation unifying Kubernetes Network Policy and Istio Application Policy.</li>
 <li><a href="https://deepfence.io">Deepfence Enterprise</a> - Full life cycle Cloud Native Workload Protection platform for kubernetes, virtual machines and serverless.</li>
 <li><a href="https://github.com/deepfence/ThreatMapper">Deepfence Threat Mapper</a> - Powerful runtime vulnerability scanner for kubernetes, virtual machines and serverless.</li>
 <li><a href="https://github.com/dexidp/dex">Dex</a> - OpenID and OAuth for Kubernetes</li>
@@ -1644,7 +1653,7 @@
 <li><a href="https://knowledge.hitachivantara.com/Documents/Adapters_and_Drivers/Storage_Adapters_and_Drivers/Containers/1.0/Storage_Plug-in_for_Containers_Quick_Reference_Guide_v1.0.0">Hitachi</a></li>
 <li><a href="https://github.com/hpe-storage/dory">HPE</a></li>
 <li><a href="https://github.com/kubeup/kube-aliyun">Kube-Aliyun</a></li>
-<li><a href="https://www.linode.com/blockstorage">Linode</a></li>
+<li><a href="https://www.linode.com/products/block-storage/">Linode</a></li>
 <li><a href="https://github.com/Microsoft/K8s-Storage-Plugins">Microsoft</a></li>
 <li><a href="https://github.com/NetApp/trident">NetApp Trident</a></li>
 <li><a href="http://github.com/openebs/openebs/">OpenEBS</a></li>
@@ -1671,6 +1680,7 @@
 <li><a href="https://ember-csi.io">Ember</a></li>
 <li><a href="https://github.com/kubernetes-sigs/gcp-compute-persistent-disk-csi-driver">Google Compute Engine Persistent Disk</a></li>
 <li><a href="https://github.com/intel/pmem-CSI">Intel PMEM-CSI</a></li>
+<li><a href="https://github.com/juicedata/juicefs-csi-driver">JuiceFS</a></li>
 <li><a href="https://github.com/kadalu/kadalu">KaDalu - Gluster</a></li>
 <li><a href="https://github.com/linode/linode-blockstorage-csi-driver">Linode Block Storage</a></li>
 <li><a href="https://github.com/longhorn/longhorn">Longhorn</a></li>
@@ -1817,10 +1827,10 @@
     <div class="md-dialog" data-md-component="dialog">
       <div class="md-dialog__inner md-typeset"></div>
     </div>
-    <script id="__config" type="application/json">{"base": "../..", "features": ["tabs", "instant"], "translations": {"clipboard.copy": "Copy to clipboard", "clipboard.copied": "Copied to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.placeholder": "Type to start searching", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.term.missing": "Missing", "select.version.title": "Select version"}, "search": "../../assets/javascripts/workers/search.b0710199.min.js", "version": null}</script>
+    <script id="__config" type="application/json">{"base": "../..", "features": ["tabs", "instant"], "translations": {"clipboard.copy": "Copy to clipboard", "clipboard.copied": "Copied to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.placeholder": "Type to start searching", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.term.missing": "Missing", "select.version.title": "Select version"}, "search": "../../assets/javascripts/workers/search.409db549.min.js", "version": null}</script>
     
     
-      <script src="../../assets/javascripts/bundle.76f349be.min.js"></script>
+      <script src="../../assets/javascripts/bundle.56a63758.min.js"></script>
       
     
   </body>
