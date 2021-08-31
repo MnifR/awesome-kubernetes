@@ -93,6 +93,7 @@ Projects
 *Test your applications running on Kubernetes*
 
 * [chaoskube](https://github.com/linki/chaoskube) - periodically kills random pods in your Kubernetes cluster
+* [DETIK](https://github.com/bats-core/bats-detik) - BATS extension for end-to-end tests of K8s applications
 * [k8s-testsuite](https://github.com/mrahbar/k8s-testsuite) - Helm chart for network and loadtesting of a Kubernetes cluster
 * [kboom](https://github.com/mhausenblas/kboom) - The Kubernetes scale & soak load tester
 * [Krucible](https://usekrucible.com/) - Quickly create temporary Kubernetes clusters for testing 
@@ -116,7 +117,6 @@ Projects
 * [Jenkins](https://jenkins.io)
    * [Jenkins-Kubernetes Plugin](https://github.com/jenkinsci/kubernetes-plugin) by [Carlos Sanchez](https://www.twitter.com/csanchez)
    * [Automated Image Builds with Jenkins, Packer, and Kubernetes](https://cloudplatform.googleblog.com/2015/05/Automated-Compute-Engine-and-Docker-Image-Builds-with-Jenkins-Packer-and-Kubernetes.html)
-   * [On-demand Jenkins slaves with Kubernetes and the Google Container Engine](http://www.cloudbees.com/blog/demand-jenkins-slaves-kubernetes-and-google-container-engine)
    * [Lab: Build a Continuous Deployment Pipeline with Jenkins and Kubernetes](https://github.com/GoogleCloudPlatform/continuous-deployment-on-kubernetes)
    * [Jenkins Operator - Kubernetes native Jenkins operator](https://github.com/jenkinsci/kubernetes-operator)
 * [Jenkins X](http://jenkins-x.io/) - automated CI/CD for Kubernetes with GitOps Promotion and Preview Environments on Pull Requests using best of breed OSS tools like: Jenkins, Helm, Skaffold, Kaniko, Knative Build, Knative Pipeline and Prow
@@ -132,11 +132,9 @@ Projects
 * [Keel](https://keel.sh/)
 * [Kit](http://invisionapp.github.io/kit/)
 * [Kontinuous](https://github.com/AcalephStorage/kontinuous)
-* [KubeCI](https://github.com/kubeciio)
 * [Razee](https://github.com/razee-io/Razee)
 * [Shippable](http://blog.shippable.com/topic/kubernetes)
 * [Shipper](https://github.com/bookingcom/shipper) - Kubernetes native multi-cluster canary or blue-green rollouts using Helm.
-* [Spinnaker](http://www.spinnaker.io/blog/deploy-to-kubernetes-using-spinnaker)
 * [Vili](https://github.com/airware/vili)
 * [Weave Flux – GitOps reconcoliation operator](https://github.com/weaveworks/flux)
 * [Wercker](http://blog.wercker.com/topic/kubernetes)
@@ -238,7 +236,6 @@ Projects
 * [Cisco ACI](https://www.cisco.com/c/en/us/td/docs/switches/datacenter/aci/apic/sw/kb/b_Kubernetes_Integration_with_ACI.html) - CNI plugin from Cisco support ACI fabrics
 * [CNI-Genie](https://github.com/Huawei-PaaS/CNI-Genie)
 * [cni-ipvlan-vpc-k8s](https://github.com/lyft/cni-ipvlan-vpc-k8s)
-* [Contiv](http://contiv.github.io/)
 * [External DNS](https://github.com/kubernetes-incubator/external-dns) - To control DNS records dynamically via Kube resources
 * [Goldpinger](https://github.com/bloomberg/goldpinger) display, monitor and alert on inter-cluster connectivity
 * [illuminatio](https://github.com/inovex/illuminatio) is a tool for automatically testing kubernetes network policies
@@ -304,7 +301,6 @@ Projects
 ## Mobile applications
 
 * [Cabin](https://github.com/bitnami/cabin)
-* [Cockpit](http://cockpit-project.org/guide/latest/feature-kubernetes.html)
 
 ## API/CLI adaptors
 
@@ -381,9 +377,9 @@ Projects
 ## Security
 * [kubiscan](https://github.com/cyberark/KubiScan) - A tool to scan Kubernetes cluster for risky pods and RBAC permissions
 * [kubeletctl](https://github.com/cyberark/kubeletctl) - A client for kubelet with advanced capabilities like scanning for pods vulnerable for RCE
+* [Anchore Engine](https://github.com/anchore/anchore-engine) - An open-source project that provides a centralized service for inspection, analysis, and certification of container images.
 * [Aquasec](http://blog.aquasec.com/topic/kubernetes)
 * [Authenticator](https://github.com/kubernetes-sigs/aws-iam-authenticator) - A tool for using AWS IAM credentials to authenticate to a Kubernetes cluster
-* [Calico Network Policy (from Tigera)](https://docs.projectcalico.org/master/introduction/) - Widely adopted open source implementation unifying Kubernetes Network Policy and Istio Application Policy.
 * [Deepfence Enterprise](https://deepfence.io) - Full life cycle Cloud Native Workload Protection platform for kubernetes, virtual machines and serverless.
 * [Deepfence Threat Mapper](https://github.com/deepfence/ThreatMapper) - Powerful runtime vulnerability scanner for kubernetes, virtual machines and serverless.
 * [Dex](https://github.com/dexidp/dex) - OpenID and OAuth for Kubernetes
@@ -524,7 +520,7 @@ Persistent Volume Providers
 * [Hitachi](https://knowledge.hitachivantara.com/Documents/Adapters_and_Drivers/Storage_Adapters_and_Drivers/Containers/1.0/Storage_Plug-in_for_Containers_Quick_Reference_Guide_v1.0.0)
 * [HPE](https://github.com/hpe-storage/dory)
 * [Kube-Aliyun](https://github.com/kubeup/kube-aliyun)
-* [Linode](https://www.linode.com/blockstorage)
+* [Linode](https://www.linode.com/products/block-storage/)
 * [Microsoft](https://github.com/Microsoft/K8s-Storage-Plugins)
 * [NetApp Trident](https://github.com/NetApp/trident)
 * [OpenEBS](http://github.com/openebs/openebs/)
@@ -553,6 +549,7 @@ Container Storage Interface Plugins
 * [Ember](https://ember-csi.io)
 * [Google Compute Engine Persistent Disk](https://github.com/kubernetes-sigs/gcp-compute-persistent-disk-csi-driver)
 * [Intel PMEM-CSI](https://github.com/intel/pmem-CSI)
+* [JuiceFS](https://github.com/juicedata/juicefs-csi-driver)
 * [KaDalu - Gluster](https://github.com/kadalu/kadalu)
 * [Linode Block Storage](https://github.com/linode/linode-blockstorage-csi-driver)
 * [Longhorn](https://github.com/longhorn/longhorn)
