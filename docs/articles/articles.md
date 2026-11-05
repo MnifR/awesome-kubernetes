@@ -6,7 +6,7 @@ Useful Articles
 ### [Cloud Providers](#cloud-providers)
 
 - [AWS Advent 2014 - CoreOS and Kubernetes on AWS](http://awsadvent.tumblr.com/post/104260597799/aws-advent-2014-coreos-and-kubernetes-on-aws) by [Tim Dsyinger](https://twitter.com/dysinger)
-- [Kubernetes and AWS VPC Peering](http://ben.straub.cc/2015/08/19/kubernetes-aws-vpc-peering/) by [Ben Straub](https://twitter.com/benstraub)
+- [Kubernetes Node Pools and Networking](https://devtoolhub.com/kubernetes-node-pools-networking/) - Node pool sizing and taints across AWS, GCP, Azure, and DigitalOcean, plus how pod-to-pod networking actually works underneath.
 - [Testing Kubernetes on AWS](http://alanwill.me/Testing-Kubernetes-on-AWS/) by [Alan Will](https://twitter.com/alanwill)
 - [Manage Kubernetes Clusters on AWS Using Kops](https://aws.amazon.com/blogs/compute/kubernetes-clusters-aws-kops/)
 - [Production grade Kubernetes on AWS: Primer (Part 1)](https://medium.com/tailor-tech/production-grade-kubernetes-on-aws-primer-5b83e71c024) by [Guy Maliar](https://github.com/gmaliar)
@@ -17,12 +17,14 @@ Useful Articles
 - [Creating a Kubernetes Cluster on DigitalOcean with Python and Fabric](https://testdriven.io/creating-a-kubernetes-cluster-on-digitalocean)
 - [Deploy a Kubernetes development cluster with Juju!](http://insights.ubuntu.com/2015/07/23/deploy-a-kubernetes-development-cluster-with-juju-2/) by [Matt Bruzek](https://github.com/mbruzek)
 - [State of Managed Kubernetes 2020](https://medium.com/swlh/state-of-managed-kubernetes-2020-4be006643360) by [Yitaek Hwang](https://medium.com/@yitaek)
+- [Basics of autoscaling nodes and pods in Kubernetes](https://www.useanvil.com/blog/engineering/autoscaling-kubernetes-in-gke) by [Inshaal Amjad](https://www.linkedin.com/in/inshaal-amjad/)
 
 ### [Logging](#logging)
 - [Logging in Kubernetes with Fluentd and Elasticsearch](http://www.dasblinkenlichten.com/logging-in-kubernetes-with-fluentd-and-elasticsearch/) by [Jon Langemak](https://twitter.com/blinken_lichten)
 - [Logging - Kafka topic by namespace](http://www.devoperandi.com/logging-kafka-topic-by-kubernetes-namespace/) by Michael Ward
 - [The Complete Guide to Kubernetes Logging](https://sematext.com/guides/kubernetes-logging/) by [Adnan Rahić](https://twitter.com/adnanrahic)
-- [Logs in Kubernetes: expectations vs reality](https://medium.com/flant-com/kubernetes-logging-challenges-aad3f45d8eed) by [Nikolay Bogdanov](https://github.com/gyrter)
+- [Logs in Kubernetes: expectations vs reality](https://blog.palark.com/logs-in-kubernetes-expectations-vs-reality/) by [Nikolay Bogdanov](https://github.com/gyrter)
+- [VictoriaLogs: an overview, run in Kubernetes, LogsQL, and Grafana](https://rtfm.co.ua/en/victorialogs-an-overview-run-in-kubernetes-logsql-and-grafana/)  by [Arseny Zinchenko](https://www.linkedin.com/in/setevoy/)
 
 ### [Monitoring](#monitoring)
 
@@ -33,6 +35,9 @@ Useful Articles
 - [The Complete Guide to Kubernetes Monitoring](https://sematext.com/guides/kubernetes-monitoring/) by [Adnan Rahić](https://twitter.com/adnanrahic)
 - [Practical Monitoring with Prometheus & Grafana: 4 Part Series](https://medium.com/@yitaek/practical-monitoring-with-prometheus-grafana-part-i-22d0f172f993) by [Yitaek Hwang](https://medium.com/@yitaek)
 - [Easy Kubernetes Metrics Server Install in minikube in Five Steps](https://thospfuller.com/2020/11/29/easy-kubernetes-metrics-server-install-in-minikube-in-five-steps/) by [Thomas P. Fuller](https://thospfuller.com/)
+- [Kubernetes Monitoring: A complete Guide](https://middleware.io/blog/kubernetes-monitoring/) by [Laduram Vishnoi](https://twitter.com/laduramvishnoi)
+- [VictoriaMetrics: deploying a Kubernetes monitoring stack](https://rtfm.co.ua/en/victoriametrics-deploying-a-kubernetes-monitoring-stack/) by [Arseny Zinchenko](https://www.linkedin.com/in/setevoy/)
+- [Multi-site monitoring with HA and dynamic scale using VictoriaMetrics. A Practical guide](https://medium.com/israeli-tech-radar/all-at-once-monster-multi-site-monitoring-platform-with-victoriametrics-ebed75c3c5e) by [Amit Karni](https://www.linkedin.com/in/amit-karni/)
 
 ### [Security](#security)
 
@@ -48,18 +53,18 @@ Useful Articles
 ### [Authentication](#authentication)
 
 - [Kubernetes Authentication plugins and kubeconfig](http://www.dasblinkenlichten.com/kubernetes-authentication-plugins-and-kubeconfig/) by [Jon Langemak](https://twitter.com/blinken_lichten)
-- [Kubernetes Authentication - OpenID Connect](http://www.devoperandi.com/kubernetes-authentication-openid-connect/) by [Michael Ward](https://twitter.com/DevoperandI)
+- [Kubernetes Authentication - OpenID Connect](http://www.devoperandi.com/kubernetes-authentication-openid-connect/) by Michael Ward
 - [Kubernetes authentication via GitHub OAuth and Dex](https://medium.com/preply-engineering/k8s-auth-a81f59d4dff6) by [Amet Umerov](https://github.com/Amet13)
 
 ### [Networking](#networking)
 
 - [Enable IPv6 on Kubernetes with Project Calico](https://www.projectcalico.org/enable-ipv6-on-kubernetes-with-project-calico/) by [Valentin Ouvrard](https://twitter.com/Valentin_NC)
-- [Kubernetes in IPV6-only](http://opsnotice.xyz/kubernetes-ipv6-only/) by [Valentin Ouvrard](https://twitter.com/Valentin_NC)
 - [Kubernetes 101 – Networking](http://www.dasblinkenlichten.com/kubernetes-101-networking/) by [Jon Langemak](https://twitter.com/blinken_lichten)
 - [Kubernetes with OpenStack Cloud Provider: Current state and upcoming changes (part 1 of 2)](http://medium.com/@arthur.souzamiranda/kubernetes-with-openstack-cloud-provider-current-state-and-upcoming-changes-part-1-of-2-48b161ea449a)
 - [Comparison of Networking Solutions for Kubernetes](http://machinezone.github.io/research/networking-solutions-for-kubernetes/)
 - [IPVS-Based In-Cluster Load Balancing Deep Dive](https://kubernetes.io/blog/2018/07/09/ipvs-based-in-cluster-load-balancing-deep-dive/)
-- [Calico for Kubernetes networking: the basics & examples](https://medium.com/flant-com/calico-for-kubernetes-networking-792b41e19d69) by [Oleg Saprykin](https://github.com/xandr0s)
+- [Calico for Kubernetes networking: the basics & examples](https://blog.palark.com/calico-for-kubernetes-networking-the-basics-examples/) by [Oleg Saprykin](https://github.com/xandr0s)
+- [Load balancing gRPC in Kubernetes with a service mesh](https://www.useanvil.com/blog/engineering/load-balancing-grpc-in-kubernetes-with-istio) by [Inshaal Amjad](https://www.linkedin.com/in/inshaal-amjad/)
 
 ### [CI/CD](#ci/cd)
 
@@ -75,6 +80,7 @@ Useful Articles
 * [CircleCI](http://www.alexecollins.com/continuous-delivery-with-kubernetes-and-circleci/)
 - [Kubernetes Deployments: The Ultimate Guide](https://semaphoreci.com/blog/kubernetes-deployment) by [Jérôme Petazzoni](https://twitter.com/jpetazzo)
 - [Deploying your apps in Kubernetes via GitLab CI/CD integration in werf](https://werf.io/documentation/guides/gitlab_ci_cd_integration.html)
+- [ArgoCD Best Practices](https://datree.io/resources/argocd-best-practices-you-should-know)
 
 ### [Deep Learning](#deep-learning)
 
@@ -84,7 +90,7 @@ Useful Articles
 
 - [How to pass the Certified Kubernetes Administrator (CKA) exam on the first attempt](https://medium.com/devopslinks/how-to-pass-certified-kubernetes-administrator-cka-exam-on-first-attempt-36c0ceb4c9e)
 - [Getting Kubernetes Certified: The (mostly) Free Way](https://medium.com/@yitaek/getting-kubernetes-certified-the-mostly-free-way-41c8b68c8ed4) by [Yitaek Hwang](https://medium.com/@yitaek)
-- [Answers to 5 Kubernetes CKAD Practice Questions](https://thospfuller.com/2020/11/09/answers_to_five_kubernetes_ckad_practice_questions_2021/) by [Thomas P. Fuller](https://thospfuller.com/)
+- [CKA vs CKAD vs CKS: Which Cert to Take First](https://devtoolhub.com/cka-vs-ckad-vs-cks/)
 
 ### [Devops Tools](#devops-tools)
 
@@ -93,12 +99,15 @@ Useful Articles
 - [Cluster Consul using Kubernetes API](http://www.devoperandi.com/cluster-consul-using-kubernetes-api/)
 - [Dynamic Kubernetes installation/configuration with SaltStack](http://www.dasblinkenlichten.com/dynamic-kubernetes-installationconfiguration-with-saltstack/) by [Jon Langemak](https://twitter.com/blinken_lichten)
 - [Deploying Kubernetes with SaltStack](http://www.dasblinkenlichten.com/deploying-kubernetes-with-saltstack/) by [Jon Langemak](https://twitter.com/blinken_lichten)
+- [Let's Learn Kubernetes](https://dev.to/pghildiyal/let-s-learn-kubernetes-basics-part-1-3of7) by [Prashant Ghildiyal](https://www.linkedin.com/in/pghildiyal/)
+- [How to Provision an AWS EKS Kubernetes Cluster with Terraform](https://spacelift.io/blog/how-to-provision-aws-eks-kubernetes-cluster-with-terraform) by [Jacob Martin](https://www.linkedin.com/in/jakubmartin/)
 
 ### [Others](#others)
+* [Rightsizing Your Kubernetes Cluster](https://www.perfectscale.io/blog/8-tips-for-rightsizing-your-kubernetes-cluster) by Idan Gazit
 * [Packaging Multiple Resources together](https://planet.jboss.org/post/kubernetes_application_package_multiple_resources_together) by Arun Gupta
 * [Scaling Docker with Kubernetes](http://www.infoq.com/articles/scaling-docker-with-kubernetes) by [Carlos Sanchez](https://twitter.com/csanchez)
 * [Creating a Kubernetes Cluster to Run Docker Formatted Container Images](http://access.redhat.com/articles/1353773) by [Chris Negus](https://twitter.com/linuxcricket)
-* [Containerizing Docker on Kubernetes](https://www.linkedin.com/pulse/containerizing-docker-kubernetes-ramit-surana/) by [Ramit Surana](https://twitter.com/ramitsurana)
+* [Containerizing Docker on Kubernetes](https://ramitsurana.github.io/genisis-kubernetes) by [Ramit Surana](https://twitter.com/ramitsurana)
 * [Quay: Introducing an Application Registry for Kubernetes](http://coreos.com/blog/quay-application-registry-for-kubernetes.html) by Antoine Legrand
 * [Play With Kubernetes Quickly Using Docker](http://zwischenzugs.wordpress.com/2015/04/06/play-with-kubernetes-quickly-using-docker/)
 * [What even is a kubelet?](http://kamalmarhubi.com/blog/2015/08/27/what-even-is-a-kubelet/) by [Kamal Marhubi](https://twitter.com/kamalmarhubi)
@@ -112,9 +121,7 @@ Useful Articles
 * [Kubernetes Production Patterns (and Anti-Patterns)](https://github.com/gravitational/workshop/blob/master/k8sprod.md)
 * [Introducing Kubic Project](https://www.suse.com/communities/blog/introducing-kubic-project-new-open-source-project/)
 * [Three post learn k8s](https://blog.alexellis.io/tag/learn-k8s/)
-* [Kubernetes tips & tricks](http://opsnotice.xyz/kubernetes-tips-tricks/)
 * [Running Flask on Kubernetes](https://testdriven.io/running-flask-on-kubernetes)
-* [Deploying Node Apps the "Right" Way](https://kubesail.com/blog/deploying-node-apps-the-right-way) by [Dan Pastusek](https://twitter.com/pastudan)
 * [Simplify your research experiments with Kubernetes](https://www.ovh.com/blog/simplify-your-research-experiments-with-kubernetes/) by [Parmentier Laurent](https://www.linkedin.com/in/laurent-parmentier-33187948/)
 * [Self-registering compact k3OS clusters to Rancher Server via cloud-init](https://medium.com/@jamesdavidbohrman/self-registering-compact-k3os-clusters-to-rancher-server-via-cloud-init-d4a89028c1f8) by [James D. Bohrman](https://github.com/jdbohrman)
 * [Benchmarking 5 Popular Load Balancers: Nginx, HAProxy, Envoy, Traefik, and ALB](https://www.loggly.com/blog/benchmarking-5-popular-load-balancers-nginx-haproxy-envoy-traefik-and-alb/)
@@ -127,3 +134,4 @@ Useful Articles
 * [Production Checklist for Redis on Kubernetes](https://medium.com/swlh/production-checklist-for-redis-on-kubernetes-60173d5a5325) by [Yitaek Hwang](https://medium.com/@yitaek)
 * [Ultimate Kubernetes Resource Planning Guide](https://medium.com/dev-genius/ultimate-kubernetes-resource-planning-guide-449a4fddd1d6) by [Yitaek Hwang](https://medium.com/@yitaek)
 * [Learn How to Mount a Local Drive in a Pod in minikube](https://thospfuller.com/2020/12/09/learn-how-to-mount-a-local-drive-in-a-pod-in-minikube-2021/) by [Thomas P. Fuller](https://thospfuller.com/)
+* [Kubernetes Deployments Demystified: A Guide to the Rolling Update Deployment Strategy](https://semaphoreci.com/blog/kubernetes-rolling-update-deployment) by [Mercy Bassey](https://www.linkedin.com/in/mercy-bassey-a18682192/)

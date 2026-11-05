@@ -1,6 +1,8 @@
 Managed Kubernetes
 =======================================================================
 
+  - [Avisi Cloud](https://avisi.cloud) - Managed Multi-cloud Kubernetes management platform
+  - [Claudie](https://github.com/berops/claudie) - Multi-cloud clusters with each nodepool in a different cloud provider.
   - [Platform9](http://platform9.com)
   - [OpenShift Online](https://www.openshift.com/products/online/)
   - [Eldarion Cloud](http://eldarion.cloud/)
@@ -10,10 +12,11 @@ Managed Kubernetes
   - [Spectro Cloud](https://www.spectrocloud.com)
   - [Flant Managed Kubernetes](https://flant.com/services/managed-kubernetes-as-a-service)
   - [Giant Swarm](https://www.giantswarm.io/)
+  - [APPUiO Cloud](https://www.appuio.ch/offering/cloud/) - Shared multi-teant OpenShift cluster - Kubernetes Namespace as a Service
+  - [Thalassa Cloud](https://thalassa.cloud/products/compute/kubernetes/)
 
 ### [Cluster Managers](#cluster-manager)
 
-  - [Cisco Container Platform](https://www.cisco.com/c/en/us/products/cloud-systems-management/container-platform/index.html)
   - [Gardener](https://github.com/gardener/gardener) - Alibaba, AWS, Azure, GCP, and OpenStack cluster manager
   - [Gravity](https://gravitational.com/gravity) - Formerly Telekube
   - [Kommander](https://d2iq.com/solutions/ksphere/kommander) - Federated management and governance for on-prem or cloud Kubernetes clusters
@@ -41,8 +44,8 @@ Managed Kubernetes
 
 ### [Enterprise Kubernetes Products](#enterprise-kubernetes-products)
 
+  - [Avisi Cloud](https://avisi.cloud) - Managed Multi-cloud Kubernetes management platform
   - [Canonical Distribution of Kubernetes - CDK](https://www.ubuntu.com/kubernetes)
-  - [Docker EE](https://www.docker.com/enterprise-edition) - Docker Enterprise Edition 2.0
   - [IBM Cloud Private](https://www.ibm.com/cloud/private)
   - [Kublr](https://kublr.com/) - Kubernetes for the Enterprise - multi-cloud and on-prem Kubernetes operations center
   - [NetApp Kubernetes Service](https://cloud.netapp.com/kubernetes-service)
@@ -50,7 +53,6 @@ Managed Kubernetes
   - [Spectro Cloud](https://www.spectrocloud.com) - Enterprise Kubernetes Management at scale
   - [SUSE Container as a Service](http://www.suse.com/betaprogram/caasp-beta/)
   - [VMware Tanzu Kubernetes Grid (TKG)](https://tanzu.vmware.com/kubernetes-grid) - Enterprise-ready multi-cloud Kubernetes runtime
-  - [WorldSibu-Forma](https://worldsibu.tech/forma/) - Multi-cloud Remote Blockchain Infrastructure Orchestrator with Kubernetes
   
 
 ### [Public/Private Cloud](#publicprivate-cloud)
@@ -72,10 +74,9 @@ Managed Kubernetes
 
   - [Alauda Container Platform](http://www.alauda.cn/?lang=EN)
   - [Cloud Foundry](https://github.com/cloudfoundry/cf-for-k8s)
+  - [Devtron Labs](https://github.com/devtron-labs/devtron) - An open source software delivery workflow for Kubernetes written in go.
   - [Eldarion Cloud](http://eldarion.cloud)
   - [Hasura](http://www.hasura.io)
-  - [Kel](http://www.kelproject.com)
-  - [Kore](https://github.com/appvia/kore) - Multi-cloud Kubernetes delivery platform for teams
   - [KubeSail](https://kubesail.com) - An easy, free way to try Kubernetes
   - [KubeSphere](https://github.com/kubesphere/kubesphere) - Full-stack and easy-to-use container platform, with awesome user experience and wizard UI.
   - [Kyma](https://kyma-project.io/) - A platform for extending apps with serverless functions. It provides a selection of cloud-native projects glued together to simplify the creation and management of services.
@@ -83,6 +84,5 @@ Managed Kubernetes
   - [OpenShift Origin (OKD)](http://www.okd.io)
   - [Rancher](http://rancher.com/running-kubernetes-aws-rancher/)
   - [RIO](https://rio.io/) - Kubernetes based MicroPaaS
-  - [Staroid](https://staroid.com) - Managed Kubernetes namespace service that funds open-source projects
   - [teresa](https://github.com/luizalabs/teresa) - Simple PAAS that runs on top of Kubernetes.
-  - [Z.A.R.V.I.S.](https://zarvis.ai) - Deploy Github projects to managed Kubernetes for free
+  - [gopaddle](https://gopaddle.io) - Simplest, fastest and cheapest way to modernize applications
